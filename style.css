@@ -1,0 +1,431 @@
+:root {
+    --main-text-color: #348989;
+    --navigation-background-color: rgba(255, 255, 255, 0.9);
+    --white: #fff;
+    --dark: #000;
+    --start-color: #EE953F;
+    --name-color: #E9A42F;
+    --job-color: #BBC9C9;
+    --box-shadow-color: #DBE1E1;
+    --date-color: #99A8A8;
+    --second-background-color: #F9F0D7;
+    --btn-hover-color: #DF7234;
+    --feedback-name: #82D4D4;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:visited {
+    color: var(--main-text-color);
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-link {
+    color: var(--main-text-color);
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.p-bottom {
+    padding-bottom: 100px;
+}
+
+.align-bottom {
+    justify-content: flex-end;
+}
+
+.direction-column {
+    flex-direction: column;
+}
+
+.main-title-block {
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive, bold;
+    margin-bottom: 0;
+    margin-left: 50px;
+    color: var(--main-text-color);
+}
+
+.main-content-container {
+    background-image: url(./assets/paper_background_top.png), url(./assets/bg1.jpg);
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
+    min-height: 1000px;
+}
+
+.nav-bar {
+    position: relative;
+    background-color: var(--navigation-background-color);
+}
+
+nav {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px 0;
+}
+
+.navigation-list {
+    color: var(--main-text-color);
+    max-width: 360px;
+}
+
+.logo-container {
+    position: absolute;
+    height: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.logo-inner-container {
+    display: inline-block;
+    position: relative;
+    background-color: var(--white);
+    margin-top: 20px;
+    border-radius: 50%;
+    height: 191px;
+}
+
+.navigation-list li {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.btn-icon {
+    color: var(--main-text-color);
+}
+
+.main-content-title {
+    color: var(--white);
+    margin: 450px 0 100px 150px;
+    text-shadow: 2px 5px 25px var(--dark);
+}
+
+.main-content-title img {
+    width: auto;
+}
+
+.scroll-link-container {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.information-container {
+    background-image: url(./assets/pepper.png), url(./assets/paper_background_top.png);
+    background-repeat: no-repeat, repeat;
+    background-size: 270px, cover;
+    background-position: bottom right;
+}
+
+.description-container {
+   color: var(--main-text-color);
+   margin: 0 auto;
+   width: 1000px;
+}
+
+.description {
+    font-size: 10px;
+    background-color: #F9F0D7;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive, bold;
+    font-size: 55px;
+    margin: 10px;
+}
+
+.stars {
+    margin: 0 auto;
+}
+
+.icon-star {
+    font-size: 15px;
+    margin: 5px;
+    color: var(--start-color);
+}
+
+.description-paragraph {
+    text-indent: 65px;
+    text-align: center;
+    padding: 0 100px 0px 100px;
+}
+
+.description-photo-container {
+    justify-content: space-around;  
+    padding: 0 20px;   
+    max-width: 990px;
+    margin: 0 auto; 
+}
+
+.decription-photo-item {
+    max-width: 300px;
+}
+
+.decription-img-container {
+    border: 10px solid var(--white);
+    box-shadow: 2px 2px 15px var(--box-shadow-color);
+    background-color: var(--white);
+    overflow: hidden;
+    width: 300px;
+}
+
+.img-cropped {
+    height: 270px;
+}
+
+.decription-content {
+    font-size: 20px;
+    color: var(--main-text-color);;
+    padding: 0 10px 10px;
+    margin: 0;
+}
+
+.person-info {
+    padding: 0 10px;
+}
+
+.name {
+    color: var(--name-color);
+}
+
+.job-title {
+    color: var(--job-color);
+}
+
+.separator {
+    width: 100%;
+    background-image: url(./img/snackTisch2.jpg);
+    background-size: cover;
+    background-position: 100% 57%;
+    height: 200px;
+    padding: 30px;
+}
+
+.inner-separator {
+    width: 100%;
+    border: 1px solid var(--white);
+}
+
+.separator-title {
+    text-align: center;
+    color: var(--white);
+}
+
+.separator-firstline {
+    font-size: 15px;
+    margin: 50px 0 -45px 0;
+}
+
+.separator-secondline {
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive, bold;
+    font-weight: bold;
+}
+
+.actual-information-block {
+    background-image: url(./assets/leaf.jpg);
+    background-size: 440px;
+    background-position: 90% -27%;
+    background-repeat: no-repeat;
+    color: var(--main-text-color);
+}
+
+.actual-information-title {
+    align-items: flex-start;
+    padding-bottom: 60px;
+}
+
+.actual-inform-secondline {
+    font-size: 15px;
+    background-color: var(--second-background-color);
+    margin-left: 50px;
+}
+
+.news-content-container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    padding: 50px 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6113861386138614) 42%, rgba(232, 237, 232, 1) 42%);
+}
+
+.news-photo-container {
+    min-width: 50%;
+}
+
+.news-photo-container img {
+    max-width: 100%;
+}
+
+.news-inner-content-container {
+    padding: 5px 5px 5px 50px;
+    color: var(--main-text-color);
+}
+
+.news-container-item .news-inner-content-container {
+    padding: 0 50px;
+}
+
+.news-title {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.news-data-title {
+    font-size: 10px;
+    color: var(--date-color);
+}
+
+.news-block {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.btn-content-container {
+    background-color: var(--start-color);
+    color: var(--white);
+    border: none;
+    height: 40px;
+    width: 150px;
+}
+
+.btn-content-container:hover {
+    color: var(--white);
+    background-color: var(--btn-hover-color);
+}
+
+.main-btn {
+    margin: 0 auto;
+    color: var(--main-text-color);
+    border: solid 3px var(--main-text-color);
+    background-color: var(--white);
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.album-container {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto 50px;
+}
+
+.album-item {
+    overflow: hidden;
+    height: 200px;
+}
+
+.album-item img {
+    height: 100%;
+    object-fit: cover;
+    border: 4px solid var(--white);
+}
+
+.photo-16 {
+    width: 16%;
+}
+
+.photo-30{
+    width: 34%;
+}
+
+.photo-50 {
+    width: 50%;
+}
+
+.m-bottom {
+    margin-bottom: 50px;
+}
+
+.feedback-container {
+    margin: 0 auto 50px;
+    width: 600px;
+    color: var(--main-text-color);
+}
+
+.line {
+    border-bottom: 1px solid var(--main-text-color);
+    width: 70%;
+    margin: 0 auto 50px;
+} 
+
+.feedback {
+    text-align: center;
+    font-size: 36px;
+}
+
+.feedback-name {
+    font-size: 12px;
+    color: var(--feedback-name);
+    margin-bottom: 50px;
+}
+
+.footer-main-container {
+    align-items: flex-end;
+    background-image: url(./assets/footer.png), url(./assets/boat.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 89% 30%;
+    min-height: 600px;
+    color: var(--white);
+    padding-bottom: 30px;
+}
+
+.footer-info-container {
+    align-items: flex-start;
+    max-width: 1100px;
+}
+
+.footer-img-logo-container {
+    background-color: var(--white);
+    position: relative;
+    border-radius: 50%;
+}
+
+.contact-container {
+    margin: 20px;
+    text-align: left;
+}
+
+.contact-element {
+    color: var(--white) !important;
+}
+
+.contact-container ul {
+    margin-top: 1em;
+}
